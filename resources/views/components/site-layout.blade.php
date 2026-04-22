@@ -11,7 +11,7 @@
 </head>
 <body class="">
 
-<nav class="bg-blue-300">
+<nav class="bg-blue-300 h-150">
     <a class="mr-4" href="/">Welcome</a>
     <a class="mr-4" href="/contact">Contact</a>
 </nav>
@@ -20,5 +20,9 @@
     {{ $slot }}
 </main>
 
-<footer class="bg-red-400"><p>Dit is de footer</p></footer>
+<footer class="bg-red-400 flex flex-row gap-10">
+    <p>Dit is de footer</p>
+    <p>Tweede kolom</p>
+
+</footer>
 </body>
