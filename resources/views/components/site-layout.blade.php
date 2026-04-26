@@ -4,14 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>Salut</title>
 
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
 </head>
 <body class="">
 
-<nav class="bg-blue-300 h-150">
+<nav class="bg-blue-300 h-150 flex flex-row justify-center">
     <a class="mr-4" href="/">Welcome</a>
     <a class="mr-4" href="/contact">Contact</a>
 </nav>
